@@ -1,0 +1,181 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    border-radius: 1%;
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-image: linear-gradient(to right,#00ffad ,#00698045)
+
+}
+#logobox{
+    width:30%;
+    height: 100%;
+    float: right;
+
+}
+#h1logo {
+    float: left;
+    line-height: 100px;
+    padding: 0 15px;
+    
+    
+    color: rgb(38 86 120);
+    text-align: center;
+    text-decoration: none;
+}
+#logo{
+    height: 100%;
+    float: right;
+    border-radius: 90%;
+}
+nav{
+    width: 70%;
+}
+
+nav a{
+    text-decoration: none;
+    color: #1a4444;;
+    font-weight: bold;
+    font-size: large;
+    display: inline-block;
+  
+
+}nav li{
+    display: inline-block;
+    line-height: 100px;
+    width: 100px;
+    text-align: center;
+}
+
+
+nav a:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(43, 11, 158);
+    width: 100%;
+    height: 100%;
+}
+main{
+    width: 100%;
+    height: 450px;
+    background-color: #32cdbfc2;
+    border-top: 3px solid #134f71;
+animation: ali 10s  infinite;
+}
+aside{
+    
+    text-align: center;
+    width: 30%;
+    height: 100%;
+    background-color:rgb(197 235 238);
+    float: left;
+    
+}
+aside img{ 
+    width: 30%;
+
+}
+#h2asid {
+    border-bottom: 2px solid rgb(253, 124, 3);
+    padding: 20px 0;
+}
+#conectas{
+    width: 100%;
+    display: flex;
+    margin-top: 15px;
+    justify-content: center;
+}
+#conectas img{
+    width: 45px;
+    padding-bottom: 10px;
+    border-bottom: 2px red double;
+   
+}
+#conectas img:hover{
+    
+    width: 55px;
+    border-bottom: 2px blue solid;
+}
+
+#article{
+    width:70%;
+    height: 450px;
+    float: right;
+    position: relative;
+   
+}
+
+#artbox{
+    background-color: rgb(197 235 238);
+    width: 400px;
+    height: 150px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 15px;
+}
+
+
+#artbox h1{
+    text-align: justify;
+    border-bottom: 2px solid green;
+    padding: 15px 0;
+}
+#artbox p{
+    text-align: center;
+}
+
+@media only screen and (min-width:940px) and (max-width:1070px){
+    #logobox{
+        width: 35%;
+    }
+    #article{
+        width: 65%;
+    }
+    aside{
+        width: 35%;
+    }
+}
+@media only screen and (max-width:940px) and (min-width:802px){
+    #logobox{
+        width: 40%;
+    }
+
+}
+ @media only screen and (max-width:801px){
+   header, main{
+       height: auto;
+   }
+   #logobox{
+    width: 100%;
+    text-align: center;
+    background-image: linear-gradient(to left,#158cc5,#00805d);
+}
+#h1logo,#logo{
+    float: none;
+}
+span a{
+    text-decoration: none;
+}
+nav{
+    width: 100%;
+    text-align: center;
+}
+aside{
+    width: 100%;
+}
+#article{
+    height: 230px;
+    width: 100%;
+    background-color: aliceblue;
+
+}
+}
+
+    
+    
+
